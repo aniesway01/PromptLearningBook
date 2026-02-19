@@ -77,28 +77,6 @@ body{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI","Noto Sans TC",sans
 .score-high{background:rgba(46,204,113,.15);color:#2ecc71}
 .score-mid{background:rgba(241,196,15,.15);color:#f1c40f}
 
-/* Copy button */
-.prompt-wrapper{position:relative}
-.copy-btn{position:absolute;top:8px;right:8px;padding:4px 10px;font-size:.72rem;background:var(--ac);color:#fff;border:none;border-radius:4px;cursor:pointer;opacity:.8;transition:opacity .2s}
-.copy-btn:hover{opacity:1}
-.copy-btn.copied{background:#2ecc71}
-
-/* Lightbox */
-.lightbox{position:fixed;top:0;left:0;width:100%;height:100%;background:rgba(0,0,0,.9);z-index:1000;display:none;align-items:center;justify-content:center;cursor:zoom-out}
-.lightbox.show{display:flex}
-.lightbox img{max-width:95%;max-height:95%;object-fit:contain;border-radius:8px;box-shadow:0 4px 30px rgba(0,0,0,.5)}
-.lightbox-close{position:absolute;top:20px;right:30px;color:#fff;font-size:2rem;cursor:pointer;opacity:.7;transition:opacity .2s}
-.lightbox-close:hover{opacity:1}
-
-/* Tag filter bar */
-.tag-filter{padding:8px 24px;background:var(--bg3);border-bottom:1px solid var(--brd);display:flex;gap:6px;flex-wrap:wrap;align-items:center}
-.tag-filter-label{font-size:.75rem;color:var(--tx2);margin-right:8px}
-.tag-filter .tag{padding:3px 10px;border-radius:12px;font-size:.72rem;background:var(--bg2);border:1px solid var(--brd);color:var(--tx2);cursor:pointer;transition:all .15s}
-.tag-filter .tag:hover,.tag-filter .tag.active{border-color:var(--ac);color:var(--ac);background:rgba(74,144,226,.1)}
-
-/* Clickable image */
-.card-img{cursor:zoom-in}
-
 /* Pagination */
 .pagination{padding:16px 24px;background:var(--bg2);border-top:1px solid var(--brd);display:flex;align-items:center;justify-content:center;gap:16px}
 .pagination .btn{min-width:100px;text-align:center}
@@ -125,13 +103,6 @@ body{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI","Noto Sans TC",sans
 </head>
 <body>
 <button class="toggle-sidebar" onclick="document.getElementById('sidebar').classList.toggle('show')">&#9776;</button>
-
-<!-- Lightbox -->
-<div class="lightbox" id="lightbox" onclick="closeLightbox()">
-  <span class="lightbox-close">&times;</span>
-  <img id="lightboxImg" src="" alt="">
-</div>
-
 <div class="app">
   <nav class="sidebar" id="sidebar">
     <div class="sidebar-hdr">
@@ -146,7 +117,7 @@ body{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI","Noto Sans TC",sans
   </nav>
   <div class="main" id="main">
     <div class="toolbar">
-      <input type="text" id="search" placeholder="搜尋標題、prompt、技巧..." oninput="onSearch(this.value)">
+      <input type="text" id="search" placeholder="搜尋 prompt 內容..." oninput="onSearch(this.value)">
       <select id="minScore" onchange="onScoreFilter()">
         <option value="0">全部星級</option>
         <option value="5">★ 5+</option>
@@ -156,10 +127,6 @@ body{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI","Noto Sans TC",sans
         <option value="9">★ 9+</option>
       </select>
       <button class="btn" id="themeBtn" onclick="toggleTheme()">☀️</button>
-    </div>
-    <div class="tag-filter" id="tagFilter">
-      <span class="tag-filter-label">🏷️ 技巧篩選：</span>
-      <span class="tag active" data-tag="" onclick="filterByTag('')">全部</span>
     </div>
     <div class="card-container" id="cardContainer">
       <div style="color:var(--tx2);text-align:center;padding:60px">載入中...</div>
@@ -174,7 +141,7 @@ body{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI","Noto Sans TC",sans
 
 <script>
 const CHAPTERS={1:"人物主體",2:"服裝",3:"場景",4:"光影",5:"鏡頭構圖",6:"風格",7:"色彩",8:"品質控制",9:"特殊技法"};
-let DATA=null,filtered=[],currentIdx=0,currentChapter=0,minScoreFilter=0,currentTag="";
+let DATA=null,filtered=[],currentIdx=0,currentChapter=0,minScoreFilter=0;
 
 // Load data
 fetch("data/curated.json")
@@ -185,36 +152,6 @@ fetch("data/curated.json")
 function init(){
   filtered=DATA.examples.slice();
   buildNav();
-  buildTagFilter();
-  renderCard();
-}
-
-function buildTagFilter(){
-  const allTags=new Map();
-  DATA.examples.forEach(e=>{
-    (e.key_techniques||[]).forEach(t=>{
-      allTags.set(t,(allTags.get(t)||0)+1);
-    });
-  });
-  // Sort by count
-  const sorted=[...allTags.entries()].sort((a,b)=>b[1]-a[1]).slice(0,15);
-  const container=document.getElementById("tagFilter");
-  container.innerHTML=`<span class="tag-filter-label">🏷️ 技巧篩選：</span><span class="tag${currentTag===''?' active':''}" data-tag="" onclick="filterByTag('')">全部</span>`;
-  sorted.forEach(([tag,count])=>{
-    const el=document.createElement("span");
-    el.className="tag"+(currentTag===tag?" active":"");
-    el.dataset.tag=tag;
-    el.textContent=`${tag} (${count})`;
-    el.onclick=()=>filterByTag(tag);
-    container.appendChild(el);
-  });
-}
-
-function filterByTag(tag){
-  currentTag=tag;
-  currentIdx=0;
-  applyFilter();
-  buildTagFilter();
   renderCard();
 }
 
@@ -254,15 +191,8 @@ function applyFilter(){
   if(currentChapter>0)result=result.filter(e=>e.chapter===currentChapter);
   // 星級篩選
   if(minScoreFilter>0)result=result.filter(e=>e.score&&e.score>=minScoreFilter);
-  // 標籤篩選
-  if(currentTag)result=result.filter(e=>(e.key_techniques||[]).includes(currentTag));
   const q=document.getElementById("search").value.trim().toLowerCase();
-  if(q)result=result.filter(e=>
-    (e.prompt||"").toLowerCase().includes(q)||
-    (e.title||"").toLowerCase().includes(q)||
-    (e.commentary||"").toLowerCase().includes(q)||
-    (e.key_techniques||[]).some(t=>t.toLowerCase().includes(q))
-  );
+  if(q)result=result.filter(e=>(e.prompt||"").toLowerCase().includes(q)||(e.title||"").toLowerCase().includes(q)||(e.commentary||"").toLowerCase().includes(q));
   filtered=result;
   if(currentIdx>=filtered.length)currentIdx=Math.max(0,filtered.length-1);
 }
@@ -307,7 +237,7 @@ function renderCard(){
 
   container.innerHTML=`
 <div class="card">
-  <div class="card-img" onclick="openLightbox('${ex.image.replace(/'/g,"\\'")}')">
+  <div class="card-img">
     <img src="${ex.image}" alt="${ex.title||''}" onerror="this.parentElement.innerHTML='<div class=no-img>圖片載入失敗<br>${ex.image}</div>'" loading="lazy">
   </div>
   <div class="card-body">
@@ -316,10 +246,7 @@ function renderCard(){
 
     <div class="section">
       <div class="section-label">提示詞</div>
-      <div class="prompt-wrapper">
-        <button class="copy-btn" onclick="copyPrompt(this)">📋 複製</button>
-        <div class="prompt-text">${escapeHtml(promptDisplay)}</div>
-      </div>
+      <div class="prompt-text">${escapeHtml(promptDisplay)}</div>
     </div>
 
     <div class="section">
@@ -370,33 +297,6 @@ if(localStorage.getItem("book-theme")==="light"){
   document.body.classList.add("light");
   document.getElementById("themeBtn").textContent="🌙";
 }
-
-// Copy prompt
-function copyPrompt(btn){
-  const text=btn.parentElement.querySelector(".prompt-text").textContent;
-  navigator.clipboard.writeText(text).then(()=>{
-    btn.textContent="✅ 已複製";
-    btn.classList.add("copied");
-    setTimeout(()=>{
-      btn.textContent="📋 複製";
-      btn.classList.remove("copied");
-    },2000);
-  }).catch(e=>alert("複製失敗: "+e));
-}
-
-// Lightbox
-function openLightbox(src){
-  document.getElementById("lightboxImg").src=src;
-  document.getElementById("lightbox").classList.add("show");
-  document.body.style.overflow="hidden";
-}
-function closeLightbox(){
-  document.getElementById("lightbox").classList.remove("show");
-  document.body.style.overflow="";
-}
-document.addEventListener("keydown",e=>{
-  if(e.key==="Escape")closeLightbox();
-});
 </script>
 </body>
 </html>

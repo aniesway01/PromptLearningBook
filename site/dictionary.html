@@ -139,7 +139,6 @@ body{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Noto Sans T
     <div class="sidebar-hdr">
       <h1>樹狀提示詞辭典</h1>
       <div class="stats" id="stats"></div>
-      <a href="book.html" style="display:inline-block;margin-top:8px;color:var(--ac);text-decoration:none;font-size:.82rem;">← 回 Prompt 學習書</a>
     </div>
     <div id="nav"></div>
   </nav>
@@ -181,7 +180,6 @@ body{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Noto Sans T
         <option value="sd">SD 加權格式</option>
         <option value="mj">Midjourney 格式</option>
       </select>
-      <button class="btn" onclick="smartSort()" title="按標準順序排列詞彙">智能排序</button>
       <div class="output-box" id="outputBox"></div>
     </div>
   </div>
@@ -471,42 +469,6 @@ function clearBuilder(){
   selected.clear();
   document.querySelectorAll('.term.selected').forEach(e=>e.classList.remove('selected'));
   renderBuilder();
-}
-
-// ── 智能排序：建立詞彙到章節的映射 ──
-function buildTermChapterMap(){
-  const m={};
-  function walk(node,chapterId){
-    if(node.terms)node.terms.forEach(t=>{m[t.en]={...t,chapter:chapterId};});
-    if(node.children)node.children.forEach(c=>walk(c,chapterId));
-  }
-  if(DATA&&DATA.chapters)DATA.chapters.forEach(ch=>walk(ch,ch.id));
-  return m;
-}
-
-// 排序優先級：品質詞(8正面) → 主體(1) → 服裝(2) → 場景(3) → 光影(4) → 鏡頭(5) → 風格(6) → 色彩(7) → 特殊(9) → 平台語法(8後段)
-const SORT_ORDER={'8':0,'1':1,'2':2,'3':3,'4':4,'5':5,'6':6,'7':7,'9':8};
-const PLATFORM_SYNTAX=['--ar','--niji','--v ','--style','--chaos','--no','mix4'];
-
-function getTermPriority(key,tcMap){
-  const t=tcMap[key];
-  if(!t)return 99;
-  // 平台語法放最後
-  if(PLATFORM_SYNTAX.some(p=>key.startsWith(p)||key.includes(':')))return 100;
-  // 品質詞（8.1正面）放最前，但負面詞不算
-  if(t.chapter==='8'&&!t.neg)return 0;
-  return SORT_ORDER[t.chapter]||50;
-}
-
-function smartSort(){
-  if(selected.size===0){toast('請先選擇詞彙');return;}
-  const tcMap=buildTermChapterMap();
-  const arr=Array.from(selected);
-  arr.sort((a,b)=>getTermPriority(a,tcMap)-getTermPriority(b,tcMap));
-  selected.clear();
-  arr.forEach(k=>selected.add(k));
-  renderBuilder();
-  toast('已按標準順序排列');
 }
 
 function renderOutput(){
