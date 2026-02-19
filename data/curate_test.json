@@ -1,0 +1,53 @@
+{
+  "test_results": [
+    {
+      "id": "2321",
+      "chapter": 9,
+      "title": "參考圖精準還原：身份與服裝鎖定教學",
+      "commentary": "這個 prompt 強調使用參考圖，並鎖定人物身份和服裝，確保生成結果與參考圖高度一致。這種方法適用於需要精確複製特定人物或造型的場景。",
+      "key_techniques": [
+        "身份鎖定",
+        "服裝鎖定",
+        "參考圖運用"
+      ],
+      "vocabulary_used": [
+        "identity_lock",
+        "outfit_lock",
+        "face_accuracy"
+      ]
+    },
+    {
+      "id": "2316",
+      "chapter": 9,
+      "title": "參考圖角色一致性：精準人物與服裝還原",
+      "commentary": "此 prompt 示範了如何利用參考圖，並鎖定人物身份和服裝，以確保生成圖像與參考圖像在人物外貌和服裝上保持高度一致。這種技巧在需要精確重現特定角色時非常有用。",
+      "key_techniques": [
+        "身份鎖定",
+        "服裝鎖定",
+        "參考圖運用"
+      ],
+      "vocabulary_used": [
+        "identity_lock",
+        "outfit_lock",
+        "face_accuracy"
+      ]
+    },
+    {
+      "id": "2315",
+      "chapter": 9,
+      "title": "參考圖人物還原：身份鎖定與精準臉部",
+      "commentary": "這個 prompt 強調使用參考圖，並鎖定人物身份，確保生成結果與參考圖在人物外貌上高度一致。 臉部特徵的精準還原是重點。",
+      "key_techniques": [
+        "身份鎖定",
+        "臉部精準",
+        "參考圖運用"
+      ],
+      "vocabulary_used": [
+        "identity_lock",
+        "face_accuracy",
+        "reference"
+      ]
+    }
+  ],
+  "validation": "passed"
+}

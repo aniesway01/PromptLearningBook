@@ -1,0 +1,2884 @@
+{
+  "chapters": [
+    {
+      "id": "1",
+      "title": "人物主體",
+      "title_en": "Subject",
+      "children": [
+        {
+          "id": "1.1",
+          "title": "人物基本",
+          "children": [
+            {
+              "id": "1.1.1",
+              "title": "人數",
+              "terms": [
+                {
+                  "en": "1girl",
+                  "zh": "單人女性",
+                  "freq": 64
+                },
+                {
+                  "en": "solo",
+                  "zh": "單人",
+                  "freq": 92
+                },
+                {
+                  "en": "1boy",
+                  "zh": "單人男性"
+                },
+                {
+                  "en": "2girls",
+                  "zh": "兩人女性",
+                  "freq": 2
+                },
+                {
+                  "en": "group",
+                  "zh": "群體",
+                  "freq": 29
+                },
+                {
+                  "en": "couple",
+                  "zh": "情侶"
+                }
+              ]
+            },
+            {
+              "id": "1.1.2",
+              "title": "年齡",
+              "terms": [
+                {
+                  "en": "teen",
+                  "zh": "青少年",
+                  "freq": 24
+                },
+                {
+                  "en": "young adult",
+                  "zh": "年輕成人",
+                  "freq": 29
+                },
+                {
+                  "en": "early 20s",
+                  "zh": "二十出頭",
+                  "freq": 11
+                },
+                {
+                  "en": "student",
+                  "zh": "學生",
+                  "freq": 38
+                },
+                {
+                  "en": "高校生くらいの女の子",
+                  "zh": "高中生年紀的女孩",
+                  "lang": "ja",
+                  "freq": 13
+                }
+              ]
+            },
+            {
+              "id": "1.1.3",
+              "title": "族裔",
+              "terms": [
+                {
+                  "en": "japanese",
+                  "zh": "日本人",
+                  "freq": 646
+                },
+                {
+                  "en": "korean",
+                  "zh": "韓國人",
+                  "freq": 27
+                },
+                {
+                  "en": "east asian",
+                  "zh": "東亞人",
+                  "freq": 20
+                },
+                {
+                  "en": "chinese",
+                  "zh": "中國人",
+                  "freq": 6
+                }
+              ]
+            },
+            {
+              "id": "1.1.4",
+              "title": "體型",
+              "terms": [
+                {
+                  "en": "slim",
+                  "zh": "纖細",
+                  "freq": 49
+                },
+                {
+                  "en": "petite",
+                  "zh": "嬌小",
+                  "freq": 4
+                },
+                {
+                  "en": "athletic",
+                  "zh": "健美",
+                  "freq": 6
+                },
+                {
+                  "en": "curvy",
+                  "zh": "豐滿",
+                  "freq": 6
+                },
+                {
+                  "en": "slender",
+                  "zh": "修長",
+                  "freq": 44
+                },
+                {
+                  "en": "tall",
+                  "zh": "高挑",
+                  "freq": 90
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "1.2",
+          "title": "臉部",
+          "children": [
+            {
+              "id": "1.2.1",
+              "title": "臉型",
+              "terms": [
+                {
+                  "en": "oval face",
+                  "zh": "鵝蛋臉",
+                  "freq": 2
+                },
+                {
+                  "en": "V-line jaw",
+                  "zh": "V型下巴",
+                  "tip": "韓系常用"
+                },
+                {
+                  "en": "delicate facial features",
+                  "zh": "精緻五官",
+                  "freq": 18
+                },
+                {
+                  "en": "round face",
+                  "zh": "圓臉",
+                  "freq": 3
+                },
+                {
+                  "en": "jawline",
+                  "zh": "下顎線",
+                  "freq": 25
+                }
+              ]
+            },
+            {
+              "id": "1.2.2",
+              "title": "膚質",
+              "terms": [
+                {
+                  "en": "flawless skin",
+                  "zh": "無瑕肌膚",
+                  "freq": 4
+                },
+                {
+                  "en": "glass skin",
+                  "zh": "玻璃肌",
+                  "tip": "韓系透亮質感",
+                  "freq": 6
+                },
+                {
+                  "en": "dewy",
+                  "zh": "水潤感",
+                  "freq": 20
+                },
+                {
+                  "en": "realistic skin texture",
+                  "zh": "真實皮膚紋理",
+                  "freq": 63
+                },
+                {
+                  "en": "porcelain skin",
+                  "zh": "瓷肌",
+                  "freq": 19
+                }
+              ]
+            },
+            {
+              "id": "1.2.3",
+              "title": "膚色",
+              "terms": [
+                {
+                  "en": "fair skin",
+                  "zh": "白皙膚色",
+                  "freq": 100
+                },
+                {
+                  "en": "natural skin tone",
+                  "zh": "自然膚色",
+                  "freq": 41
+                },
+                {
+                  "en": "peach-toned",
+                  "zh": "蜜桃色調",
+                  "freq": 4
+                },
+                {
+                  "en": "tanned",
+                  "zh": "小麥色",
+                  "freq": 2
+                }
+              ]
+            },
+            {
+              "id": "1.2.4",
+              "title": "眼睛",
+              "children": [
+                {
+                  "id": "1.2.4a",
+                  "title": "眼型",
+                  "terms": [
+                    {
+                      "en": "big eyes",
+                      "zh": "大眼",
+                      "freq": 1
+                    },
+                    {
+                      "en": "almond eyes",
+                      "zh": "杏眼",
+                      "freq": 1
+                    },
+                    {
+                      "en": "droopy eyes",
+                      "zh": "下垂眼",
+                      "tip": "溫柔無辜感"
+                    },
+                    {
+                      "en": "narrow eyes",
+                      "zh": "細長眼"
+                    },
+                    {
+                      "en": "double eyelid",
+                      "zh": "雙眼皮"
+                    }
+                  ]
+                },
+                {
+                  "id": "1.2.4b",
+                  "title": "瞳色",
+                  "terms": [
+                    {
+                      "en": "brown eyes",
+                      "zh": "棕色瞳孔",
+                      "freq": 13
+                    },
+                    {
+                      "en": "blue eyes",
+                      "zh": "藍色瞳孔",
+                      "freq": 7
+                    },
+                    {
+                      "en": "green eyes",
+                      "zh": "綠色瞳孔",
+                      "freq": 3
+                    },
+                    {
+                      "en": "heterochromia",
+                      "zh": "異色瞳"
+                    },
+                    {
+                      "en": "dark eyes",
+                      "zh": "深色瞳孔",
+                      "freq": 1
+                    }
+                  ]
+                },
+                {
+                  "id": "1.2.4c",
+                  "title": "眼部描述",
+                  "terms": [
+                    {
+                      "en": "bright eyes",
+                      "zh": "明亮雙眼",
+                      "freq": 5
+                    },
+                    {
+                      "en": "glowing eyes",
+                      "zh": "發光雙眼",
+                      "freq": 8
+                    },
+                    {
+                      "en": "sparkling eyes",
+                      "zh": "閃亮雙眼"
+                    },
+                    {
+                      "en": "expressive eyes",
+                      "zh": "有神雙眼",
+                      "freq": 11
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "1.2.5",
+              "title": "眉鼻唇",
+              "terms": [
+                {
+                  "en": "natural brow",
+                  "zh": "自然眉型",
+                  "freq": 3
+                },
+                {
+                  "en": "arched brow",
+                  "zh": "拱形眉"
+                },
+                {
+                  "en": "small nose",
+                  "zh": "小鼻子"
+                },
+                {
+                  "en": "button nose",
+                  "zh": "圓鼻頭"
+                },
+                {
+                  "en": "glossy pink lips",
+                  "zh": "粉色光澤唇",
+                  "freq": 3
+                },
+                {
+                  "en": "full lips",
+                  "zh": "豐唇",
+                  "freq": 1
+                },
+                {
+                  "en": "thin lips",
+                  "zh": "薄唇"
+                },
+                {
+                  "en": "cherry lips",
+                  "zh": "櫻桃小嘴"
+                }
+              ]
+            },
+            {
+              "id": "1.2.6",
+              "title": "妝容",
+              "terms": [
+                {
+                  "en": "natural makeup",
+                  "zh": "自然妝",
+                  "freq": 97
+                },
+                {
+                  "en": "light mascara",
+                  "zh": "淡睫毛膏",
+                  "freq": 1
+                },
+                {
+                  "en": "subtle eyeliner",
+                  "zh": "淡眼線",
+                  "freq": 4
+                },
+                {
+                  "en": "blush",
+                  "zh": "腮紅",
+                  "freq": 81
+                },
+                {
+                  "en": "lip gloss",
+                  "zh": "唇蜜",
+                  "freq": 2
+                },
+                {
+                  "en": "no makeup",
+                  "zh": "素顏",
+                  "freq": 3
+                },
+                {
+                  "en": "heavy makeup",
+                  "zh": "濃妝",
+                  "freq": 5
+                },
+                {
+                  "en": "smokey eyes",
+                  "zh": "煙燻眼"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "1.3",
+          "title": "髮型",
+          "children": [
+            {
+              "id": "1.3.1",
+              "title": "髮長",
+              "terms": [
+                {
+                  "en": "long hair",
+                  "zh": "長髮",
+                  "freq": 114
+                },
+                {
+                  "en": "medium hair",
+                  "zh": "中長髮",
+                  "freq": 3
+                },
+                {
+                  "en": "short hair",
+                  "zh": "短髮",
+                  "freq": 11
+                },
+                {
+                  "en": "shoulder-length",
+                  "zh": "及肩",
+                  "freq": 5
+                },
+                {
+                  "en": "very long hair",
+                  "zh": "超長髮"
+                }
+              ]
+            },
+            {
+              "id": "1.3.2",
+              "title": "髮色",
+              "terms": [
+                {
+                  "en": "black hair",
+                  "zh": "黑髮",
+                  "freq": 141
+                },
+                {
+                  "en": "brown hair",
+                  "zh": "棕髮",
+                  "freq": 177
+                },
+                {
+                  "en": "blonde",
+                  "zh": "金髮",
+                  "freq": 17
+                },
+                {
+                  "en": "silver hair",
+                  "zh": "銀髮"
+                },
+                {
+                  "en": "pink hair",
+                  "zh": "粉髮",
+                  "freq": 10
+                },
+                {
+                  "en": "red hair",
+                  "zh": "紅髮",
+                  "freq": 9
+                },
+                {
+                  "en": "blue hair",
+                  "zh": "藍髮",
+                  "freq": 7
+                },
+                {
+                  "en": "gradient hair",
+                  "zh": "漸層髮色",
+                  "freq": 2
+                }
+              ]
+            },
+            {
+              "id": "1.3.3",
+              "title": "造型",
+              "terms": [
+                {
+                  "en": "ponytail",
+                  "zh": "馬尾",
+                  "freq": 61
+                },
+                {
+                  "en": "twin tails",
+                  "zh": "雙馬尾",
+                  "freq": 5
+                },
+                {
+                  "en": "braid",
+                  "zh": "辮子",
+                  "freq": 24
+                },
+                {
+                  "en": "bun",
+                  "zh": "丸子頭",
+                  "freq": 38
+                },
+                {
+                  "en": "bob cut",
+                  "zh": "鮑伯頭",
+                  "freq": 4
+                },
+                {
+                  "en": "hime cut",
+                  "zh": "公主切",
+                  "freq": 2
+                },
+                {
+                  "en": "half-up",
+                  "zh": "半紮",
+                  "freq": 2
+                },
+                {
+                  "en": "side ponytail",
+                  "zh": "側馬尾",
+                  "freq": 7
+                },
+                {
+                  "en": "low ponytail",
+                  "zh": "低馬尾",
+                  "freq": 9
+                },
+                {
+                  "en": "high ponytail",
+                  "zh": "高馬尾",
+                  "freq": 20
+                },
+                {
+                  "en": "french braid",
+                  "zh": "法式辮"
+                },
+                {
+                  "en": "messy bun",
+                  "zh": "隨性丸子頭",
+                  "freq": 5
+                }
+              ]
+            },
+            {
+              "id": "1.3.4",
+              "title": "瀏海",
+              "terms": [
+                {
+                  "en": "blunt bangs",
+                  "zh": "齊瀏海",
+                  "freq": 12
+                },
+                {
+                  "en": "side-swept bangs",
+                  "zh": "斜瀏海",
+                  "freq": 7
+                },
+                {
+                  "en": "curtain bangs",
+                  "zh": "窗簾瀏海",
+                  "freq": 1
+                },
+                {
+                  "en": "no bangs",
+                  "zh": "無瀏海"
+                },
+                {
+                  "en": "see-through bangs",
+                  "zh": "空氣瀏海",
+                  "freq": 5
+                },
+                {
+                  "en": "parted bangs",
+                  "zh": "分線瀏海",
+                  "freq": 2
+                }
+              ]
+            },
+            {
+              "id": "1.3.5",
+              "title": "髮質",
+              "terms": [
+                {
+                  "en": "straight",
+                  "zh": "直髮",
+                  "freq": 276
+                },
+                {
+                  "en": "wavy",
+                  "zh": "波浪",
+                  "freq": 99
+                },
+                {
+                  "en": "curly",
+                  "zh": "捲髮",
+                  "freq": 3
+                },
+                {
+                  "en": "silky",
+                  "zh": "絲滑",
+                  "freq": 14
+                },
+                {
+                  "en": "wind-blown",
+                  "zh": "風吹效果",
+                  "freq": 1
+                },
+                {
+                  "en": "glossy hair",
+                  "zh": "光澤秀髮"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "1.4",
+          "title": "表情",
+          "children": [
+            {
+              "id": "1.4.1",
+              "title": "微笑系",
+              "terms": [
+                {
+                  "en": "smile",
+                  "zh": "微笑",
+                  "freq": 238
+                },
+                {
+                  "en": "soft smile",
+                  "zh": "淺笑",
+                  "freq": 22
+                },
+                {
+                  "en": "gentle smile",
+                  "zh": "溫柔微笑",
+                  "freq": 57
+                },
+                {
+                  "en": "grin",
+                  "zh": "露齒笑",
+                  "freq": 5
+                },
+                {
+                  "en": "smirk",
+                  "zh": "壞笑",
+                  "freq": 7
+                }
+              ]
+            },
+            {
+              "id": "1.4.2",
+              "title": "冷靜系",
+              "terms": [
+                {
+                  "en": "calm",
+                  "zh": "平靜",
+                  "freq": 175
+                },
+                {
+                  "en": "neutral",
+                  "zh": "中性表情",
+                  "freq": 132
+                },
+                {
+                  "en": "serious",
+                  "zh": "嚴肅",
+                  "freq": 19
+                },
+                {
+                  "en": "composed",
+                  "zh": "沉穩",
+                  "freq": 34
+                },
+                {
+                  "en": "stoic",
+                  "zh": "冷酷",
+                  "freq": 2
+                }
+              ]
+            },
+            {
+              "id": "1.4.3",
+              "title": "活潑系",
+              "terms": [
+                {
+                  "en": "cheerful",
+                  "zh": "開朗",
+                  "freq": 37
+                },
+                {
+                  "en": "playful",
+                  "zh": "俏皮",
+                  "freq": 159
+                },
+                {
+                  "en": "happy",
+                  "zh": "開心",
+                  "freq": 46
+                },
+                {
+                  "en": "wink",
+                  "zh": "眨眼",
+                  "freq": 22
+                },
+                {
+                  "en": "laugh",
+                  "zh": "大笑",
+                  "freq": 13
+                },
+                {
+                  "en": "pout",
+                  "zh": "嘟嘴",
+                  "freq": 14
+                }
+              ]
+            },
+            {
+              "id": "1.4.4",
+              "title": "氣質",
+              "terms": [
+                {
+                  "en": "gentle",
+                  "zh": "溫柔",
+                  "freq": 283
+                },
+                {
+                  "en": "confident",
+                  "zh": "自信",
+                  "freq": 166
+                },
+                {
+                  "en": "innocent",
+                  "zh": "天真",
+                  "freq": 64
+                },
+                {
+                  "en": "elegant",
+                  "zh": "優雅",
+                  "freq": 355
+                },
+                {
+                  "en": "dreamy",
+                  "zh": "夢幻",
+                  "freq": 62
+                },
+                {
+                  "en": "shy",
+                  "zh": "害羞",
+                  "freq": 37
+                },
+                {
+                  "en": "melancholy",
+                  "zh": "憂鬱",
+                  "freq": 1
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "1.5",
+          "title": "視線",
+          "terms": [
+            {
+              "en": "looking at viewer",
+              "zh": "看向觀眾",
+              "freq": 95
+            },
+            {
+              "en": "looking at camera",
+              "zh": "看向鏡頭",
+              "freq": 59
+            },
+            {
+              "en": "looking away",
+              "zh": "看向別處",
+              "freq": 11
+            },
+            {
+              "en": "looking down",
+              "zh": "向下看",
+              "freq": 38
+            },
+            {
+              "en": "looking up",
+              "zh": "向上看",
+              "freq": 22
+            },
+            {
+              "en": "eye contact",
+              "zh": "眼神接觸",
+              "freq": 34
+            },
+            {
+              "en": "looking to the side",
+              "zh": "看向側邊",
+              "freq": 1
+            },
+            {
+              "en": "glancing",
+              "zh": "瞥視",
+              "freq": 7
+            },
+            {
+              "en": "gaze",
+              "zh": "凝視",
+              "freq": 89
+            },
+            {
+              "en": "staring",
+              "zh": "直視",
+              "freq": 2
+            }
+          ]
+        },
+        {
+          "id": "1.6",
+          "title": "姿勢",
+          "children": [
+            {
+              "id": "1.6.1",
+              "title": "站姿",
+              "terms": [
+                {
+                  "en": "standing",
+                  "zh": "站立",
+                  "freq": 280
+                },
+                {
+                  "en": "leaning",
+                  "zh": "倚靠",
+                  "freq": 145
+                },
+                {
+                  "en": "weight shift",
+                  "zh": "重心偏移",
+                  "freq": 4
+                },
+                {
+                  "en": "contrapposto",
+                  "zh": "對立式站姿",
+                  "tip": "經典S曲線"
+                }
+              ]
+            },
+            {
+              "id": "1.6.2",
+              "title": "坐姿",
+              "terms": [
+                {
+                  "en": "sitting",
+                  "zh": "坐著",
+                  "freq": 284
+                },
+                {
+                  "en": "legs crossed",
+                  "zh": "翹腳",
+                  "freq": 130
+                },
+                {
+                  "en": "side-sitting",
+                  "zh": "側坐"
+                },
+                {
+                  "en": "squatting",
+                  "zh": "蹲坐",
+                  "freq": 17
+                }
+              ]
+            },
+            {
+              "id": "1.6.3",
+              "title": "其他姿勢",
+              "terms": [
+                {
+                  "en": "kneeling",
+                  "zh": "跪姿",
+                  "freq": 74
+                },
+                {
+                  "en": "lying",
+                  "zh": "躺臥",
+                  "freq": 59
+                },
+                {
+                  "en": "crouching",
+                  "zh": "蹲下",
+                  "freq": 9
+                },
+                {
+                  "en": "walking",
+                  "zh": "行走",
+                  "freq": 20
+                },
+                {
+                  "en": "running",
+                  "zh": "奔跑",
+                  "freq": 17
+                },
+                {
+                  "en": "jumping",
+                  "zh": "跳躍",
+                  "freq": 4
+                },
+                {
+                  "en": "from behind",
+                  "zh": "背面",
+                  "freq": 26
+                },
+                {
+                  "en": "profile",
+                  "zh": "側面",
+                  "freq": 77
+                }
+              ]
+            },
+            {
+              "id": "1.6.4",
+              "title": "手部動作",
+              "terms": [
+                {
+                  "en": "holding",
+                  "zh": "手持",
+                  "freq": 153
+                },
+                {
+                  "en": "hands clasped",
+                  "zh": "雙手合十",
+                  "freq": 11
+                },
+                {
+                  "en": "hand on hip",
+                  "zh": "手叉腰",
+                  "freq": 5
+                },
+                {
+                  "en": "arms crossed",
+                  "zh": "雙手交叉",
+                  "freq": 6
+                },
+                {
+                  "en": "hand on head",
+                  "zh": "手放頭上",
+                  "freq": 6
+                },
+                {
+                  "en": "hands behind",
+                  "zh": "手放背後",
+                  "freq": 2
+                },
+                {
+                  "en": "peace sign",
+                  "zh": "比V",
+                  "freq": 6
+                },
+                {
+                  "en": "pointing",
+                  "zh": "指向",
+                  "freq": 6
+                }
+              ]
+            },
+            {
+              "id": "1.6.5",
+              "title": "身體語言",
+              "terms": [
+                {
+                  "en": "elegant posture",
+                  "zh": "優雅姿態",
+                  "freq": 16
+                },
+                {
+                  "en": "dynamic pose",
+                  "zh": "動態姿勢",
+                  "freq": 9
+                },
+                {
+                  "en": "relaxed",
+                  "zh": "放鬆",
+                  "freq": 180
+                },
+                {
+                  "en": "resting",
+                  "zh": "休息",
+                  "freq": 145
+                },
+                {
+                  "en": "turned",
+                  "zh": "轉身",
+                  "freq": 34
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "2",
+      "title": "服裝",
+      "title_en": "Clothing",
+      "children": [
+        {
+          "id": "2.1",
+          "title": "整體類型",
+          "terms": [
+            {
+              "en": "school uniform",
+              "zh": "學生制服",
+              "freq": 168
+            },
+            {
+              "en": "casual",
+              "zh": "休閒裝",
+              "freq": 127
+            },
+            {
+              "en": "sailor",
+              "zh": "水手服",
+              "freq": 91
+            },
+            {
+              "en": "serafuku",
+              "zh": "水手服（日式）",
+              "lang": "ja",
+              "freq": 16
+            },
+            {
+              "en": "office lady",
+              "zh": "OL套裝",
+              "freq": 64
+            },
+            {
+              "en": "idol",
+              "zh": "偶像裝",
+              "freq": 86
+            },
+            {
+              "en": "cosplay",
+              "zh": "角色扮演",
+              "freq": 52
+            },
+            {
+              "en": "maid",
+              "zh": "女僕裝",
+              "freq": 19
+            },
+            {
+              "en": "kimono",
+              "zh": "和服",
+              "freq": 24
+            },
+            {
+              "en": "gothic",
+              "zh": "哥德風",
+              "freq": 32
+            },
+            {
+              "en": "lolita",
+              "zh": "蘿莉塔",
+              "freq": 8
+            },
+            {
+              "en": "military",
+              "zh": "軍裝",
+              "freq": 3
+            },
+            {
+              "en": "formal",
+              "zh": "正裝",
+              "freq": 9
+            },
+            {
+              "en": "nurse",
+              "zh": "護士裝",
+              "freq": 22
+            },
+            {
+              "en": "flight attendant",
+              "zh": "空服員",
+              "freq": 6
+            },
+            {
+              "en": "k-pop",
+              "zh": "韓系偶像",
+              "freq": 21
+            },
+            {
+              "en": "streetwear",
+              "zh": "街頭風",
+              "freq": 4
+            },
+            {
+              "en": "blazer uniform",
+              "zh": "西裝外套制服",
+              "freq": 3
+            }
+          ]
+        },
+        {
+          "id": "2.2",
+          "title": "上半身",
+          "children": [
+            {
+              "id": "2.2.1",
+              "title": "上衣",
+              "terms": [
+                {
+                  "en": "white shirt",
+                  "zh": "白襯衫",
+                  "freq": 44
+                },
+                {
+                  "en": "blouse",
+                  "zh": "女衫",
+                  "freq": 175
+                },
+                {
+                  "en": "sweater",
+                  "zh": "毛衣",
+                  "freq": 74
+                },
+                {
+                  "en": "crop top",
+                  "zh": "短版上衣",
+                  "freq": 7
+                },
+                {
+                  "en": "t-shirt",
+                  "zh": "T恤",
+                  "freq": 5
+                },
+                {
+                  "en": "tank top",
+                  "zh": "背心",
+                  "freq": 4
+                },
+                {
+                  "en": "turtleneck",
+                  "zh": "高領",
+                  "freq": 25
+                },
+                {
+                  "en": "off-shoulder",
+                  "zh": "露肩",
+                  "freq": 22
+                }
+              ]
+            },
+            {
+              "id": "2.2.2",
+              "title": "外套",
+              "terms": [
+                {
+                  "en": "blazer",
+                  "zh": "西裝外套",
+                  "freq": 67
+                },
+                {
+                  "en": "cardigan",
+                  "zh": "開襟衫",
+                  "freq": 60
+                },
+                {
+                  "en": "jacket",
+                  "zh": "夾克",
+                  "freq": 64
+                },
+                {
+                  "en": "vest",
+                  "zh": "背心",
+                  "freq": 21
+                },
+                {
+                  "en": "coat",
+                  "zh": "大衣",
+                  "freq": 29
+                },
+                {
+                  "en": "hoodie",
+                  "zh": "連帽衫",
+                  "freq": 2
+                }
+              ]
+            },
+            {
+              "id": "2.2.3",
+              "title": "領部",
+              "terms": [
+                {
+                  "en": "sailor collar",
+                  "zh": "水手領",
+                  "freq": 9
+                },
+                {
+                  "en": "necktie",
+                  "zh": "領帶",
+                  "freq": 38
+                },
+                {
+                  "en": "ribbon",
+                  "zh": "蝴蝶結",
+                  "freq": 110
+                },
+                {
+                  "en": "bow tie",
+                  "zh": "領結",
+                  "freq": 39
+                },
+                {
+                  "en": "collar",
+                  "zh": "領子",
+                  "freq": 104
+                }
+              ]
+            },
+            {
+              "id": "2.2.4",
+              "title": "袖子",
+              "terms": [
+                {
+                  "en": "long sleeves",
+                  "zh": "長袖",
+                  "freq": 49
+                },
+                {
+                  "en": "short sleeves",
+                  "zh": "短袖",
+                  "freq": 18
+                },
+                {
+                  "en": "sleeveless",
+                  "zh": "無袖",
+                  "freq": 25
+                },
+                {
+                  "en": "rolled sleeves",
+                  "zh": "捲袖",
+                  "freq": 4
+                },
+                {
+                  "en": "puffy sleeves",
+                  "zh": "泡泡袖",
+                  "freq": 2
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "2.3",
+          "title": "下半身",
+          "children": [
+            {
+              "id": "2.3.1",
+              "title": "裙",
+              "terms": [
+                {
+                  "en": "pleated skirt",
+                  "zh": "百褶裙",
+                  "freq": 84
+                },
+                {
+                  "en": "plaid skirt",
+                  "zh": "格紋裙",
+                  "freq": 50
+                },
+                {
+                  "en": "miniskirt",
+                  "zh": "迷你裙",
+                  "freq": 14
+                },
+                {
+                  "en": "long skirt",
+                  "zh": "長裙"
+                },
+                {
+                  "en": "A-line skirt",
+                  "zh": "A字裙",
+                  "freq": 1
+                },
+                {
+                  "en": "high-waist skirt",
+                  "zh": "高腰裙",
+                  "freq": 1
+                }
+              ]
+            },
+            {
+              "id": "2.3.2",
+              "title": "褲",
+              "terms": [
+                {
+                  "en": "shorts",
+                  "zh": "短褲",
+                  "freq": 23
+                },
+                {
+                  "en": "jeans",
+                  "zh": "牛仔褲",
+                  "freq": 14
+                },
+                {
+                  "en": "trousers",
+                  "zh": "長褲",
+                  "freq": 6
+                },
+                {
+                  "en": "hot pants",
+                  "zh": "熱褲",
+                  "freq": 1
+                },
+                {
+                  "en": "leggings",
+                  "zh": "內搭褲",
+                  "freq": 1
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "2.4",
+          "title": "腿部",
+          "children": [
+            {
+              "id": "2.4.1",
+              "title": "按長度",
+              "terms": [
+                {
+                  "en": "ankle socks",
+                  "zh": "踝襪",
+                  "freq": 5
+                },
+                {
+                  "en": "crew socks",
+                  "zh": "中筒襪",
+                  "freq": 5
+                },
+                {
+                  "en": "knee-high socks",
+                  "zh": "及膝襪",
+                  "freq": 42
+                },
+                {
+                  "en": "over-the-knee socks",
+                  "zh": "過膝襪",
+                  "freq": 2
+                },
+                {
+                  "en": "thigh-high stockings",
+                  "zh": "大腿襪",
+                  "freq": 84
+                }
+              ]
+            },
+            {
+              "id": "2.4.2",
+              "title": "按材質",
+              "terms": [
+                {
+                  "en": "sheer pantyhose",
+                  "zh": "透膚絲襪",
+                  "freq": 68
+                },
+                {
+                  "en": "opaque tights",
+                  "zh": "不透明褲襪",
+                  "freq": 2
+                },
+                {
+                  "en": "fishnet stockings",
+                  "zh": "漁網襪",
+                  "freq": 3
+                },
+                {
+                  "en": "cotton socks",
+                  "zh": "棉襪"
+                }
+              ]
+            },
+            {
+              "id": "2.4.3",
+              "title": "其他",
+              "terms": [
+                {
+                  "en": "bare legs",
+                  "zh": "裸腿",
+                  "freq": 7
+                },
+                {
+                  "en": "garter stockings",
+                  "zh": "吊帶襪",
+                  "freq": 5
+                },
+                {
+                  "en": "leg warmers",
+                  "zh": "暖腿套"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "2.5",
+          "title": "鞋子",
+          "terms": [
+            {
+              "en": "loafers",
+              "zh": "樂福鞋",
+              "freq": 84
+            },
+            {
+              "en": "high heels",
+              "zh": "高跟鞋",
+              "freq": 188
+            },
+            {
+              "en": "sneakers",
+              "zh": "運動鞋",
+              "freq": 15
+            },
+            {
+              "en": "boots",
+              "zh": "靴子",
+              "freq": 52
+            },
+            {
+              "en": "Mary Jane",
+              "zh": "瑪莉珍鞋",
+              "freq": 15
+            },
+            {
+              "en": "platform shoes",
+              "zh": "厚底鞋"
+            },
+            {
+              "en": "sandals",
+              "zh": "涼鞋",
+              "freq": 24
+            },
+            {
+              "en": "school shoes",
+              "zh": "學生皮鞋",
+              "freq": 2
+            },
+            {
+              "en": "ballet flats",
+              "zh": "芭蕾平底鞋",
+              "freq": 1
+            }
+          ]
+        },
+        {
+          "id": "2.6",
+          "title": "配飾",
+          "children": [
+            {
+              "id": "2.6.1",
+              "title": "頭飾",
+              "terms": [
+                {
+                  "en": "headband",
+                  "zh": "髮箍",
+                  "freq": 15
+                },
+                {
+                  "en": "hair clip",
+                  "zh": "髮夾",
+                  "freq": 14
+                },
+                {
+                  "en": "hair ribbon",
+                  "zh": "髮帶",
+                  "freq": 5
+                },
+                {
+                  "en": "beret",
+                  "zh": "貝雷帽",
+                  "freq": 4
+                },
+                {
+                  "en": "hat",
+                  "zh": "帽子",
+                  "freq": 184
+                },
+                {
+                  "en": "hair flower",
+                  "zh": "髮花"
+                }
+              ]
+            },
+            {
+              "id": "2.6.2",
+              "title": "頸飾",
+              "terms": [
+                {
+                  "en": "choker",
+                  "zh": "頸圈",
+                  "freq": 22
+                },
+                {
+                  "en": "necklace",
+                  "zh": "項鏈",
+                  "freq": 59
+                },
+                {
+                  "en": "scarf",
+                  "zh": "圍巾",
+                  "freq": 21
+                }
+              ]
+            },
+            {
+              "id": "2.6.3",
+              "title": "手飾",
+              "terms": [
+                {
+                  "en": "bracelet",
+                  "zh": "手鏈",
+                  "freq": 17
+                },
+                {
+                  "en": "ring",
+                  "zh": "戒指",
+                  "freq": 935
+                },
+                {
+                  "en": "watch",
+                  "zh": "手錶",
+                  "freq": 26
+                },
+                {
+                  "en": "gloves",
+                  "zh": "手套",
+                  "freq": 22
+                }
+              ]
+            },
+            {
+              "id": "2.6.4",
+              "title": "耳飾",
+              "terms": [
+                {
+                  "en": "earring",
+                  "zh": "耳環",
+                  "freq": 53
+                },
+                {
+                  "en": "pearl studs",
+                  "zh": "珍珠耳釘",
+                  "freq": 1
+                },
+                {
+                  "en": "hoop earrings",
+                  "zh": "圈形耳環",
+                  "freq": 5
+                }
+              ]
+            },
+            {
+              "id": "2.6.5",
+              "title": "包包",
+              "terms": [
+                {
+                  "en": "bag",
+                  "zh": "包包",
+                  "freq": 94
+                },
+                {
+                  "en": "backpack",
+                  "zh": "後背包",
+                  "freq": 4
+                },
+                {
+                  "en": "school bag",
+                  "zh": "書包",
+                  "freq": 20
+                },
+                {
+                  "en": "handbag",
+                  "zh": "手提包",
+                  "freq": 21
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "2.7",
+          "title": "材質花紋",
+          "terms": [
+            {
+              "en": "lace trim",
+              "zh": "蕾絲邊",
+              "freq": 29
+            },
+            {
+              "en": "plaid pattern",
+              "zh": "格紋",
+              "freq": 6
+            },
+            {
+              "en": "ribbed texture",
+              "zh": "羅紋",
+              "freq": 1
+            },
+            {
+              "en": "denim",
+              "zh": "丹寧",
+              "freq": 23
+            },
+            {
+              "en": "leather",
+              "zh": "皮革",
+              "freq": 158
+            },
+            {
+              "en": "silk",
+              "zh": "絲綢",
+              "freq": 40
+            },
+            {
+              "en": "velvet",
+              "zh": "絲絨",
+              "freq": 18
+            },
+            {
+              "en": "chiffon",
+              "zh": "雪紡",
+              "freq": 11
+            },
+            {
+              "en": "polka dot",
+              "zh": "圓點",
+              "freq": 2
+            },
+            {
+              "en": "striped",
+              "zh": "條紋",
+              "freq": 48
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "3",
+      "title": "場景",
+      "title_en": "Scene",
+      "children": [
+        {
+          "id": "3.1",
+          "title": "室內",
+          "terms": [
+            {
+              "en": "classroom",
+              "zh": "教室",
+              "freq": 48
+            },
+            {
+              "en": "bedroom",
+              "zh": "臥室",
+              "freq": 27
+            },
+            {
+              "en": "cafe",
+              "zh": "咖啡廳",
+              "freq": 29
+            },
+            {
+              "en": "office",
+              "zh": "辦公室",
+              "freq": 231
+            },
+            {
+              "en": "studio",
+              "zh": "攝影棚",
+              "freq": 358
+            },
+            {
+              "en": "library",
+              "zh": "圖書館",
+              "freq": 5
+            },
+            {
+              "en": "bathroom",
+              "zh": "浴室",
+              "freq": 10
+            },
+            {
+              "en": "kitchen",
+              "zh": "廚房",
+              "freq": 10
+            },
+            {
+              "en": "hallway",
+              "zh": "走廊",
+              "freq": 10
+            },
+            {
+              "en": "locker room",
+              "zh": "更衣室",
+              "freq": 10
+            }
+          ]
+        },
+        {
+          "id": "3.2",
+          "title": "室外",
+          "terms": [
+            {
+              "en": "urban street",
+              "zh": "城市街道",
+              "freq": 18
+            },
+            {
+              "en": "park",
+              "zh": "公園",
+              "freq": 72
+            },
+            {
+              "en": "shrine",
+              "zh": "神社",
+              "freq": 11
+            },
+            {
+              "en": "rooftop",
+              "zh": "屋頂",
+              "freq": 19
+            },
+            {
+              "en": "train station",
+              "zh": "車站",
+              "freq": 10
+            },
+            {
+              "en": "beach",
+              "zh": "海灘",
+              "freq": 4
+            },
+            {
+              "en": "garden",
+              "zh": "花園",
+              "freq": 8
+            },
+            {
+              "en": "bridge",
+              "zh": "橋",
+              "freq": 24
+            },
+            {
+              "en": "alley",
+              "zh": "巷弄",
+              "freq": 13
+            },
+            {
+              "en": "school gate",
+              "zh": "校門",
+              "freq": 2
+            },
+            {
+              "en": "cherry blossoms",
+              "zh": "櫻花",
+              "freq": 8
+            }
+          ]
+        },
+        {
+          "id": "3.3",
+          "title": "背景",
+          "terms": [
+            {
+              "en": "white background",
+              "zh": "白色背景",
+              "freq": 43
+            },
+            {
+              "en": "simple background",
+              "zh": "簡單背景",
+              "freq": 2
+            },
+            {
+              "en": "blurred background",
+              "zh": "模糊背景",
+              "freq": 25
+            },
+            {
+              "en": "bokeh background",
+              "zh": "散景背景",
+              "freq": 35
+            },
+            {
+              "en": "gradient background",
+              "zh": "漸層背景",
+              "freq": 3
+            },
+            {
+              "en": "dark background",
+              "zh": "暗色背景",
+              "freq": 4
+            },
+            {
+              "en": "detailed background",
+              "zh": "細緻背景"
+            }
+          ]
+        },
+        {
+          "id": "3.4",
+          "title": "時段天氣",
+          "terms": [
+            {
+              "en": "sunset",
+              "zh": "夕陽",
+              "freq": 39
+            },
+            {
+              "en": "golden hour",
+              "zh": "黃金時段",
+              "freq": 35
+            },
+            {
+              "en": "overcast",
+              "zh": "陰天",
+              "freq": 31
+            },
+            {
+              "en": "morning light",
+              "zh": "晨光",
+              "freq": 6
+            },
+            {
+              "en": "night",
+              "zh": "夜晚",
+              "freq": 86
+            },
+            {
+              "en": "rainy",
+              "zh": "雨天",
+              "freq": 9
+            },
+            {
+              "en": "cloudy",
+              "zh": "多雲",
+              "freq": 11
+            },
+            {
+              "en": "blue hour",
+              "zh": "藍調時刻",
+              "freq": 1
+            },
+            {
+              "en": "noon",
+              "zh": "正午",
+              "freq": 13
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "4",
+      "title": "光影",
+      "title_en": "Lighting",
+      "children": [
+        {
+          "id": "4.1",
+          "title": "光源",
+          "terms": [
+            {
+              "en": "natural daylight",
+              "zh": "自然日光",
+              "freq": 148
+            },
+            {
+              "en": "studio lighting",
+              "zh": "棚燈",
+              "freq": 122
+            },
+            {
+              "en": "cinematic lighting",
+              "zh": "電影感燈光",
+              "freq": 84
+            },
+            {
+              "en": "ring light",
+              "zh": "環形燈",
+              "freq": 18
+            },
+            {
+              "en": "window light",
+              "zh": "窗光",
+              "freq": 82
+            },
+            {
+              "en": "neon light",
+              "zh": "霓虹燈",
+              "freq": 5
+            },
+            {
+              "en": "candlelight",
+              "zh": "燭光",
+              "freq": 4
+            },
+            {
+              "en": "ambient light",
+              "zh": "環境光",
+              "freq": 29
+            }
+          ]
+        },
+        {
+          "id": "4.2",
+          "title": "方向",
+          "terms": [
+            {
+              "en": "frontal light",
+              "zh": "正面光",
+              "freq": 1
+            },
+            {
+              "en": "side light",
+              "zh": "側光",
+              "freq": 37
+            },
+            {
+              "en": "backlighting",
+              "zh": "逆光",
+              "freq": 16
+            },
+            {
+              "en": "rim light",
+              "zh": "輪廓光",
+              "freq": 52
+            },
+            {
+              "en": "45-degree light",
+              "zh": "45度光"
+            },
+            {
+              "en": "top light",
+              "zh": "頂光"
+            },
+            {
+              "en": "under light",
+              "zh": "底光",
+              "freq": 1
+            }
+          ]
+        },
+        {
+          "id": "4.3",
+          "title": "品質",
+          "terms": [
+            {
+              "en": "soft lighting",
+              "zh": "柔光",
+              "freq": 45
+            },
+            {
+              "en": "dramatic lighting",
+              "zh": "戲劇性燈光",
+              "freq": 9
+            },
+            {
+              "en": "high contrast",
+              "zh": "高對比",
+              "freq": 91
+            },
+            {
+              "en": "even illumination",
+              "zh": "均勻照明",
+              "freq": 40
+            },
+            {
+              "en": "low key",
+              "zh": "低調光",
+              "tip": "暗部為主"
+            },
+            {
+              "en": "high key",
+              "zh": "高調光",
+              "tip": "亮部為主",
+              "freq": 16
+            }
+          ]
+        },
+        {
+          "id": "4.4",
+          "title": "效果",
+          "terms": [
+            {
+              "en": "lens flare",
+              "zh": "鏡頭光暈",
+              "freq": 10
+            },
+            {
+              "en": "bloom",
+              "zh": "光暈",
+              "freq": 20
+            },
+            {
+              "en": "catchlights",
+              "zh": "眼神光",
+              "freq": 6
+            },
+            {
+              "en": "glow",
+              "zh": "發光",
+              "freq": 177
+            },
+            {
+              "en": "light rays",
+              "zh": "光線",
+              "freq": 3
+            },
+            {
+              "en": "shadow play",
+              "zh": "光影效果"
+            },
+            {
+              "en": "volumetric light",
+              "zh": "體積光",
+              "freq": 13
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "5",
+      "title": "鏡頭構圖",
+      "title_en": "Camera & Composition",
+      "children": [
+        {
+          "id": "5.1",
+          "title": "取景",
+          "terms": [
+            {
+              "en": "full body",
+              "zh": "全身",
+              "freq": 301
+            },
+            {
+              "en": "cowboy shot",
+              "zh": "牛仔鏡頭",
+              "tip": "膝上取景",
+              "freq": 10
+            },
+            {
+              "en": "upper body",
+              "zh": "上半身",
+              "freq": 49
+            },
+            {
+              "en": "portrait",
+              "zh": "肖像",
+              "freq": 464
+            },
+            {
+              "en": "close-up",
+              "zh": "近景",
+              "freq": 59
+            },
+            {
+              "en": "extreme close-up",
+              "zh": "特寫",
+              "freq": 7
+            },
+            {
+              "en": "medium shot",
+              "zh": "中景",
+              "freq": 67
+            },
+            {
+              "en": "wide shot",
+              "zh": "廣角鏡頭",
+              "freq": 15
+            }
+          ]
+        },
+        {
+          "id": "5.2",
+          "title": "角度",
+          "terms": [
+            {
+              "en": "eye level",
+              "zh": "平視",
+              "freq": 61
+            },
+            {
+              "en": "low angle",
+              "zh": "仰角",
+              "freq": 135
+            },
+            {
+              "en": "high angle",
+              "zh": "俯角",
+              "freq": 64
+            },
+            {
+              "en": "aerial view",
+              "zh": "鳥瞰",
+              "freq": 1
+            },
+            {
+              "en": "3/4 view",
+              "zh": "四分之三角度",
+              "freq": 2
+            },
+            {
+              "en": "dutch angle",
+              "zh": "荷蘭角",
+              "freq": 16
+            },
+            {
+              "en": "worm's eye view",
+              "zh": "蟲視角",
+              "freq": 1
+            }
+          ]
+        },
+        {
+          "id": "5.3",
+          "title": "鏡頭參數",
+          "terms": [
+            {
+              "en": "85mm lens",
+              "zh": "85mm（人像鏡）",
+              "tip": "最經典人像焦段",
+              "freq": 24
+            },
+            {
+              "en": "50mm lens",
+              "zh": "50mm（標準鏡）",
+              "freq": 9
+            },
+            {
+              "en": "35mm lens",
+              "zh": "35mm（廣角）",
+              "freq": 12
+            },
+            {
+              "en": "135mm lens",
+              "zh": "135mm（長焦人像）"
+            },
+            {
+              "en": "f/1.4",
+              "zh": "大光圈",
+              "tip": "極淺景深",
+              "freq": 3
+            },
+            {
+              "en": "f/1.8",
+              "zh": "大光圈",
+              "freq": 32
+            },
+            {
+              "en": "f/2.8",
+              "zh": "中大光圈",
+              "freq": 29
+            },
+            {
+              "en": "shallow depth of field",
+              "zh": "淺景深",
+              "freq": 283
+            },
+            {
+              "en": "deep depth of field",
+              "zh": "深景深",
+              "freq": 11
+            }
+          ]
+        },
+        {
+          "id": "5.4",
+          "title": "構圖",
+          "terms": [
+            {
+              "en": "centered composition",
+              "zh": "置中構圖",
+              "freq": 23
+            },
+            {
+              "en": "rule of thirds",
+              "zh": "三分法",
+              "freq": 12
+            },
+            {
+              "en": "symmetrical",
+              "zh": "對稱",
+              "freq": 42
+            },
+            {
+              "en": "golden ratio",
+              "zh": "黃金比例",
+              "freq": 2
+            },
+            {
+              "en": "leading lines",
+              "zh": "引導線",
+              "freq": 28
+            },
+            {
+              "en": "negative space",
+              "zh": "負空間",
+              "freq": 9
+            },
+            {
+              "en": "framing",
+              "zh": "框架構圖",
+              "freq": 389
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "6",
+      "title": "風格",
+      "title_en": "Style",
+      "children": [
+        {
+          "id": "6.1",
+          "title": "寫實",
+          "terms": [
+            {
+              "en": "photorealistic",
+              "zh": "照片寫實",
+              "freq": 366
+            },
+            {
+              "en": "raw photo",
+              "zh": "RAW照片感",
+              "freq": 27
+            },
+            {
+              "en": "hyper-realistic",
+              "zh": "超寫實",
+              "freq": 73
+            },
+            {
+              "en": "cinematic realism",
+              "zh": "電影寫實",
+              "freq": 24
+            },
+            {
+              "en": "documentary style",
+              "zh": "紀實風格"
+            },
+            {
+              "en": "DSLR quality",
+              "zh": "單眼品質",
+              "freq": 2
+            }
+          ]
+        },
+        {
+          "id": "6.2",
+          "title": "動漫",
+          "terms": [
+            {
+              "en": "anime",
+              "zh": "動漫風",
+              "freq": 95
+            },
+            {
+              "en": "illustration",
+              "zh": "插畫",
+              "freq": 101
+            },
+            {
+              "en": "--niji 5",
+              "zh": "Midjourney動漫模式",
+              "tip": "MJ專用參數",
+              "freq": 19
+            },
+            {
+              "en": "manga style",
+              "zh": "漫畫風"
+            },
+            {
+              "en": "cel shading",
+              "zh": "賽璐璐著色",
+              "freq": 1
+            },
+            {
+              "en": "flat color",
+              "zh": "平塗",
+              "freq": 2
+            }
+          ]
+        },
+        {
+          "id": "6.3",
+          "title": "手繪",
+          "terms": [
+            {
+              "en": "pencil sketch",
+              "zh": "鉛筆素描",
+              "freq": 3
+            },
+            {
+              "en": "watercolor",
+              "zh": "水彩",
+              "freq": 29
+            },
+            {
+              "en": "oil painting",
+              "zh": "油畫"
+            },
+            {
+              "en": "pastel drawing",
+              "zh": "粉彩"
+            },
+            {
+              "en": "ink wash",
+              "zh": "水墨",
+              "freq": 1
+            },
+            {
+              "en": "charcoal",
+              "zh": "炭筆",
+              "freq": 17
+            }
+          ]
+        },
+        {
+          "id": "6.4",
+          "title": "3D/特殊",
+          "terms": [
+            {
+              "en": "3d render",
+              "zh": "3D渲染",
+              "freq": 41
+            },
+            {
+              "en": "isometric",
+              "zh": "等距",
+              "freq": 34
+            },
+            {
+              "en": "miniature",
+              "zh": "微縮",
+              "freq": 119
+            },
+            {
+              "en": "diorama",
+              "zh": "場景模型",
+              "freq": 50
+            },
+            {
+              "en": "pixel art",
+              "zh": "像素風"
+            },
+            {
+              "en": "voxel art",
+              "zh": "體素風"
+            }
+          ]
+        },
+        {
+          "id": "6.5",
+          "title": "美學",
+          "terms": [
+            {
+              "en": "vintage",
+              "zh": "復古",
+              "freq": 62
+            },
+            {
+              "en": "retro",
+              "zh": "懷舊",
+              "freq": 24
+            },
+            {
+              "en": "kawaii",
+              "zh": "可愛",
+              "freq": 29
+            },
+            {
+              "en": "cyberpunk",
+              "zh": "賽博龐克",
+              "freq": 15
+            },
+            {
+              "en": "film look",
+              "zh": "底片感",
+              "freq": 2
+            },
+            {
+              "en": "dreamy aesthetic",
+              "zh": "夢幻美學"
+            },
+            {
+              "en": "dark academia",
+              "zh": "暗黑學院風"
+            },
+            {
+              "en": "cottagecore",
+              "zh": "田園風"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "7",
+      "title": "色彩",
+      "title_en": "Color",
+      "children": [
+        {
+          "id": "7.1",
+          "title": "基本色",
+          "terms": [
+            {
+              "en": "red",
+              "zh": "紅",
+              "freq": 1357
+            },
+            {
+              "en": "blue",
+              "zh": "藍",
+              "freq": 418
+            },
+            {
+              "en": "black",
+              "zh": "黑",
+              "freq": 1712
+            },
+            {
+              "en": "white",
+              "zh": "白",
+              "freq": 1486
+            },
+            {
+              "en": "pink",
+              "zh": "粉",
+              "freq": 324
+            },
+            {
+              "en": "gold",
+              "zh": "金",
+              "freq": 205
+            },
+            {
+              "en": "navy",
+              "zh": "海軍藍",
+              "freq": 149
+            },
+            {
+              "en": "green",
+              "zh": "綠",
+              "freq": 201
+            },
+            {
+              "en": "purple",
+              "zh": "紫",
+              "freq": 51
+            },
+            {
+              "en": "orange",
+              "zh": "橘",
+              "freq": 52
+            },
+            {
+              "en": "silver",
+              "zh": "銀",
+              "freq": 79
+            },
+            {
+              "en": "beige",
+              "zh": "米色",
+              "freq": 205
+            }
+          ]
+        },
+        {
+          "id": "7.2",
+          "title": "色調",
+          "terms": [
+            {
+              "en": "warm tone",
+              "zh": "暖色調",
+              "freq": 38
+            },
+            {
+              "en": "cool tone",
+              "zh": "冷色調",
+              "freq": 16
+            },
+            {
+              "en": "pastel",
+              "zh": "粉彩色",
+              "freq": 112
+            },
+            {
+              "en": "vibrant",
+              "zh": "鮮豔",
+              "freq": 80
+            },
+            {
+              "en": "desaturated",
+              "zh": "低飽和",
+              "freq": 24
+            },
+            {
+              "en": "monochrome",
+              "zh": "單色",
+              "freq": 25
+            },
+            {
+              "en": "muted colors",
+              "zh": "柔和色",
+              "freq": 5
+            },
+            {
+              "en": "high saturation",
+              "zh": "高飽和",
+              "freq": 1
+            }
+          ]
+        },
+        {
+          "id": "7.3",
+          "title": "後製",
+          "terms": [
+            {
+              "en": "color grading",
+              "zh": "調色",
+              "freq": 44
+            },
+            {
+              "en": "color palette",
+              "zh": "色盤",
+              "freq": 26
+            },
+            {
+              "en": "sRGB",
+              "zh": "sRGB色域",
+              "freq": 1
+            },
+            {
+              "en": "teal and orange",
+              "zh": "青橘調色",
+              "tip": "電影感常用",
+              "freq": 1
+            },
+            {
+              "en": "cross-process",
+              "zh": "交叉沖洗"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "8",
+      "title": "品質控制",
+      "title_en": "Quality Control",
+      "children": [
+        {
+          "id": "8.1",
+          "title": "正面品質詞",
+          "terms": [
+            {
+              "en": "best quality",
+              "zh": "最佳品質",
+              "freq": 122
+            },
+            {
+              "en": "masterpiece",
+              "zh": "傑作",
+              "freq": 92
+            },
+            {
+              "en": "8k",
+              "zh": "8K解析度",
+              "freq": 282
+            },
+            {
+              "en": "ultra detailed",
+              "zh": "超精細",
+              "freq": 22
+            },
+            {
+              "en": "sharp focus",
+              "zh": "銳利對焦",
+              "freq": 234
+            },
+            {
+              "en": "high resolution",
+              "zh": "高解析度",
+              "freq": 130
+            },
+            {
+              "en": "absurdres",
+              "zh": "超高解析度",
+              "tip": "NovelAI/SD常用",
+              "freq": 8
+            },
+            {
+              "en": "intricate details",
+              "zh": "精密細節",
+              "freq": 9
+            },
+            {
+              "en": "professional photo",
+              "zh": "專業攝影",
+              "freq": 28
+            }
+          ]
+        },
+        {
+          "id": "8.2",
+          "title": "負面提示詞",
+          "terms": [
+            {
+              "en": "bad anatomy",
+              "zh": "解剖錯誤",
+              "neg": true,
+              "freq": 12
+            },
+            {
+              "en": "extra fingers",
+              "zh": "多餘手指",
+              "neg": true,
+              "freq": 20
+            },
+            {
+              "en": "text",
+              "zh": "文字",
+              "neg": true,
+              "freq": 1084
+            },
+            {
+              "en": "watermark",
+              "zh": "浮水印",
+              "neg": true,
+              "freq": 73
+            },
+            {
+              "en": "blurry",
+              "zh": "模糊",
+              "neg": true,
+              "freq": 23
+            },
+            {
+              "en": "deformed",
+              "zh": "變形",
+              "neg": true,
+              "freq": 28
+            },
+            {
+              "en": "low quality",
+              "zh": "低品質",
+              "neg": true,
+              "freq": 14
+            },
+            {
+              "en": "worst quality",
+              "zh": "最差品質",
+              "neg": true,
+              "freq": 6
+            },
+            {
+              "en": "ugly",
+              "zh": "醜陋",
+              "neg": true,
+              "freq": 5
+            },
+            {
+              "en": "duplicate",
+              "zh": "重複",
+              "neg": true,
+              "freq": 5
+            },
+            {
+              "en": "cropped",
+              "zh": "裁切",
+              "neg": true,
+              "freq": 38
+            },
+            {
+              "en": "mutation",
+              "zh": "突變",
+              "neg": true,
+              "freq": 1
+            },
+            {
+              "en": "extra limbs",
+              "zh": "多餘肢體",
+              "neg": true,
+              "freq": 18
+            }
+          ]
+        },
+        {
+          "id": "8.3",
+          "title": "平台語法",
+          "terms": [
+            {
+              "en": "--ar 2:3",
+              "zh": "長寬比 2:3（直式）",
+              "tip": "Midjourney",
+              "freq": 48
+            },
+            {
+              "en": "--ar 3:2",
+              "zh": "長寬比 3:2（橫式）",
+              "tip": "Midjourney",
+              "freq": 2
+            },
+            {
+              "en": "--ar 1:1",
+              "zh": "長寬比 1:1（方形）",
+              "tip": "Midjourney",
+              "freq": 5
+            },
+            {
+              "en": "--niji 5",
+              "zh": "動漫模式",
+              "tip": "Midjourney",
+              "freq": 19
+            },
+            {
+              "en": "--v 6",
+              "zh": "版本6",
+              "tip": "Midjourney",
+              "freq": 7
+            },
+            {
+              "en": "(keyword:1.4)",
+              "zh": "關鍵字加權 1.4",
+              "tip": "SD/NAI語法"
+            },
+            {
+              "en": "mix4",
+              "zh": "混合模式4",
+              "tip": "特定平台",
+              "freq": 39
+            },
+            {
+              "en": "--style raw",
+              "zh": "RAW風格",
+              "tip": "Midjourney",
+              "freq": 9
+            },
+            {
+              "en": "--chaos N",
+              "zh": "混亂度",
+              "tip": "Midjourney，N=0-100"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "9",
+      "title": "特殊技法",
+      "title_en": "Advanced Techniques",
+      "children": [
+        {
+          "id": "9.1",
+          "title": "身份鎖定",
+          "terms": [
+            {
+              "en": "identity_lock",
+              "zh": "身份鎖定",
+              "freq": 34
+            },
+            {
+              "en": "face_accuracy",
+              "zh": "臉部精確度",
+              "freq": 4
+            },
+            {
+              "en": "maintain the exact same person",
+              "zh": "保持同一人物",
+              "freq": 4
+            },
+            {
+              "en": "consistent character",
+              "zh": "角色一致性",
+              "freq": 1
+            },
+            {
+              "en": "same face",
+              "zh": "相同臉部",
+              "freq": 74
+            }
+          ]
+        },
+        {
+          "id": "9.2",
+          "title": "服裝鎖定",
+          "terms": [
+            {
+              "en": "outfit_lock",
+              "zh": "服裝鎖定",
+              "freq": 2
+            },
+            {
+              "en": "do not alter clothing",
+              "zh": "不要改變服裝"
+            },
+            {
+              "en": "keep original outfit",
+              "zh": "保持原始服裝"
+            }
+          ]
+        },
+        {
+          "id": "9.3",
+          "title": "技術",
+          "terms": [
+            {
+              "en": "LoRA",
+              "zh": "低秩適配",
+              "tip": "微調模型技術",
+              "freq": 50
+            },
+            {
+              "en": "controlnet",
+              "zh": "控制網路",
+              "tip": "姿勢/邊緣控制"
+            },
+            {
+              "en": "inpainting",
+              "zh": "局部重繪"
+            },
+            {
+              "en": "img2img",
+              "zh": "圖生圖"
+            },
+            {
+              "en": "reference image",
+              "zh": "參考圖",
+              "freq": 292
+            },
+            {
+              "en": "txt2img",
+              "zh": "文生圖"
+            },
+            {
+              "en": "outpainting",
+              "zh": "外擴繪製"
+            },
+            {
+              "en": "depth map",
+              "zh": "深度圖"
+            },
+            {
+              "en": "openpose",
+              "zh": "姿態偵測"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "metadata": {
+    "total_chapters": 9,
+    "total_leaf_nodes": 70,
+    "total_terms": 3629,
+    "source_db": "uniform_map.db",
+    "description": "樹狀提示詞辭典 - 9章分類，手動策展 + DB 頻率統計"
+  }
+}

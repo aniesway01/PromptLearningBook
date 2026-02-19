@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Prompt 學習書</title>
+<style>
+*{margin:0;padding:0;box-sizing:border-box}
+:root{--bg:#0f0f23;--bg2:#1a1a2e;--tx:#e8e8e8;--tx2:#a8a8a8;--ac:#4a90e2;--ac2:#e94b77}
+body{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI","Noto Sans TC",sans-serif;background:var(--bg);color:var(--tx);min-height:100vh;display:flex;flex-direction:column;align-items:center;justify-content:center;padding:40px 20px}
+h1{font-size:2.5rem;margin-bottom:12px;background:linear-gradient(135deg,var(--ac),var(--ac2));-webkit-background-clip:text;-webkit-text-fill-color:transparent}
+.subtitle{color:var(--tx2);font-size:1.1rem;margin-bottom:48px;text-align:center}
+.cards{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:24px;max-width:720px;width:100%}
+.card{background:var(--bg2);border:1px solid rgba(255,255,255,.08);border-radius:16px;padding:32px;text-align:center;text-decoration:none;color:var(--tx);transition:all .3s}
+.card:hover{transform:translateY(-4px);border-color:var(--ac);box-shadow:0 8px 32px rgba(74,144,226,.15)}
+.card-icon{font-size:3rem;margin-bottom:16px}
+.card h2{font-size:1.3rem;margin-bottom:8px}
+.card p{color:var(--tx2);font-size:.9rem;line-height:1.6}
+.footer{margin-top:48px;color:var(--tx2);font-size:.8rem;text-align:center}
+.footer a{color:var(--ac);text-decoration:none}
+</style>
+</head>
+<body>
+<h1>Prompt 學習書</h1>
+<p class="subtitle">AI 繪圖提示詞精選範例集 &amp; 詞彙辭典</p>
+<div class="cards">
+  <a class="card" href="book.html">
+    <div class="card-icon">📖</div>
+    <h2>學習書</h2>
+    <p>~300 個精選範例，左圖右文排版<br>9 章分類 + 教學點評 + 關鍵技巧</p>
+  </a>
+  <a class="card" href="dictionary.html">
+    <div class="card-icon">📚</div>
+    <h2>詞彙辭典</h2>
+    <p>樹狀結構提示詞辭典<br>搜尋、選詞、Prompt Builder</p>
+  </a>
+</div>
+<div class="footer">
+  <p>Powered by UniformMap Database</p>
+</div>
+</body>
+</html>
