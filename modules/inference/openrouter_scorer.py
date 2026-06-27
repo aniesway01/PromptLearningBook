@@ -7,7 +7,7 @@ Where: UniformMap/modules/inference/openrouter_scorer.py
 Who: Antigravity Agent
 How: from modules.inference.openrouter_scorer import OpenRouterScorer
 """
-from _core.flow.atomic_flow import atomic_flow
+def atomic_flow(fn): return fn  # no-op shim (原 _core.flow.atomic_flow 已不存在,本就是 pass-through)
 import json
 import logging
 import google.generativeai as genai

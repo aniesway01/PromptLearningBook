@@ -15,7 +15,7 @@ from abc import ABC, abstractmethod
 
 # Path setup
 _current_dir = Path(__file__).resolve().parent
-_root_dir = _current_dir.parent if _current_dir.name != 'little-tool' else _current_dir
+_root_dir = _current_dir.parent  # (原 little-tool 容器判斷已無意義,UniformMap 早獨立)
 if str(_root_dir) not in sys.path:
     sys.path.append(str(_root_dir))
 
@@ -237,11 +237,7 @@ class PhotoScraper(BaseScraper):
         try:
             import google.generativeai as genai
 
-            try:
-                from _core.common import get_api_key
-                api_key = get_api_key("GEMINI_API_KEY")
-            except:
-                api_key = os.getenv("GEMINI_API_KEY")
+            api_key = os.getenv("GEMINI_API_KEY")  # (原 _core.common.get_api_key 已不存在,直接走 env fallback)
 
             if not api_key:
                 self.logger.warning("No GEMINI_API_KEY found, skipping AI validation")
